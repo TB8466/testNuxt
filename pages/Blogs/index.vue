@@ -37,8 +37,8 @@
         class: ''
       }
     }) */
-    const {data : blogs} = await useFetch('/api/db')
-</script>
+/*     const {data : blogs} = await useFetch('/api/db')
+ */</script>
 
 <script>
 export default {
