@@ -9,7 +9,7 @@ export default defineEventHandler(async (event) => {
     const body = await useBody(event)
 
     return {msg : await open({
-        filename: './blogs.db',
+        filename: 'blogs.db',
         driver: sqlite3.Database
     }).then(async(db) => {
         const result = await db.run('INSERT INTO blogs(name, preview, author, img, date, url) VALUES(?,?,?,?,?,?)',
