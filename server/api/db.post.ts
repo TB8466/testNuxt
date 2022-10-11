@@ -1,5 +1,5 @@
 import sqlite3 from "sqlite3"
-import { open } from "sqlite"
+const open = require("sqlite")
 
 const date = new Date();
 const today = date.getFullYear() + '-' + (date.getMonth()+1) + '-' + date.getDate();
