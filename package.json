@@ -17,6 +17,7 @@
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "align": "^0.0.1",
+    "node-fetch": "^2.6.1",
     "sqlite": "^4.1.2",
     "sqlite3": "^5.1.2",
     "string-width": "^5.1.2",
